@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/29 21:42:24.000.761,=C:\Users\Bia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/29 21:43:09.000.131,=C:\Users\Bia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/29 21:43:36.000.140,C:\Users\Bia\Documents\Embarcadero\Studio\Projects\CDZ_versao2\UCavaleiros.dfm=C:\Users\Bia\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/11/29 21:43:36.000.140,C:\Users\Bia\Documents\Embarcadero\Studio\Projects\CDZ_versao2\UCavaleiros.pas=C:\Users\Bia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/29 21:43:42.000.811,C:\Users\Bia\Documents\Embarcadero\Studio\Projects\CDZ_versao2\Cavaleiros.dproj=C:\Users\Bia\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/01/16 20:30:23.000.290,=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.pas</Transaction>
+    <Transaction>2024/01/16 20:30:47.000.460,=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.pas</Transaction>
+    <Transaction>2024/01/16 20:31:09.000.879,C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\uResultado.dfm=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.dfm</Transaction>
+    <Transaction>2024/01/16 20:31:09.000.879,C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\uResultado.pas=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.pas</Transaction>
+    <Transaction>2024/01/16 20:55:47.000.528,C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\uResultado.pas=</Transaction>
+    <Transaction>2024/01/16 20:56:12.000.118,=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.pas</Transaction>
+    <Transaction>2024/01/16 20:56:44.000.487,C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.dfm=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\UResultado.dfm</Transaction>
+    <Transaction>2024/01/16 20:56:44.000.487,C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\Unit1.pas=C:\Users\Bia Perrone\Documents\Embarcadero\Studio\Projects\ProjetoCDZ_versao3\UResultado.pas</Transaction>
+  </Transactions>
+</BorlandProject>
