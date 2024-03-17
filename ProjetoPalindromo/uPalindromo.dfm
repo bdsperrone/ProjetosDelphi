@@ -1,0 +1,47 @@
+object FormPalindromo: TFormPalindromo
+  Left = 0
+  Top = 0
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 628
+    Height = 442
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 624
+    ExplicitHeight = 441
+    object LblMensagem: TLabel
+      Left = 224
+      Top = 106
+      Width = 140
+      Height = 15
+      Caption = 'Descubra se '#233' palindromo:'
+    end
+    object EdtPalavra: TEdit
+      Left = 224
+      Top = 138
+      Width = 121
+      Height = 23
+      TabOrder = 0
+      TextHint = 'Digite uma palavra'
+    end
+    object BtnVerificar: TButton
+      Left = 246
+      Top = 175
+      Width = 75
+      Height = 25
+      Caption = 'Verificar'
+      TabOrder = 1
+      OnClick = BtnVerificarClick
+    end
+  end
+end

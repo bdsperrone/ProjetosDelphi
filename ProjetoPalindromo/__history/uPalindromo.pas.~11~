@@ -1,0 +1,56 @@
+unit uPalindromo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,System.StrUtils;
+
+type
+  TFormPalindromo = class(TForm)
+    LblMensagem: TLabel;
+    EdtPalavra: TEdit;
+    BtnVerificar: TButton;
+    Panel1: TPanel;
+    procedure BtnVerificarClick(Sender: TObject);
+  private
+    { Private declarations }
+  function EhPalindromo(Palavra: String): Boolean;
+
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPalindromo: TFormPalindromo;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormPalindromo.BtnVerificarClick(Sender: TObject);
+var
+Palavra: String;
+begin
+Palavra := EdtPalavra.Text;
+// Verificar se a palavra é um palíndromo ou não
+if EhPalindromo(Palavra) then
+// Mostrar a mensagem correspondente no ShowMessage
+ShowMessage ('A palavra é um palíndromo')
+else
+ShowMessage ('A palavra não é um palíndromo');
+end;
+
+function TFormPalindromo.EhPalindromo(Palavra: String): Boolean;
+var
+Invertida: String;
+i, j: Integer;
+begin
+// Inverter a palavra e comparar com a original
+Invertida := ReverseString(Palavra);
+Result := CompareText(Palavra, Invertida) = 0;
+// Retornar verdadeiro se forem iguais, falso se forem diferentes
+end;
+
+
+end.

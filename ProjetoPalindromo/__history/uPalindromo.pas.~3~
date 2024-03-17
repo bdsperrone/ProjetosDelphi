@@ -1,0 +1,29 @@
+unit uPalindromo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TForm1 = class(TForm)
+  EdtPalavra: TEdit;
+  BtnVerificar: TButton;
+  LblMensagem: TLabel;
+  procedure BtnVerificarClick(Sender: TObject);
+  private
+    { Private declarations }
+  function EhPalindromo(Palavra: String): Boolean;
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPalindromo: TFormPalindromo;
+
+implementation
+
+{$R *.dfm}
+
+end.
